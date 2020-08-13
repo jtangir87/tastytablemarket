@@ -160,6 +160,7 @@
   $(window).on('load', function() {
     var menuIsotope = $('.menu-container').isotope({
       itemSelector: '.menu-item',
+      filter: ".filter-entrees",
       layoutMode: 'fitRows'
     });
 
