@@ -38,7 +38,7 @@ def contact_us(request):
                 subject,
                 content,
                 "{}<{}>".format(name, email),
-                ["chad@exteriordd.com"],
+                ["george@tastytablecatering.com"],
                 fail_silently=False,
             )
 
