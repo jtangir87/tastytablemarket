@@ -537,6 +537,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 30px;
 }
 
+#hero .btns a {
+  margin-bottom: 10px;
+}
 #hero .btn-menu, #hero .btn-book {
   font-weight: 600;
   font-size: 13px;
@@ -549,6 +552,15 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   color: white;
   border: 2px solid #ffb000;
+}
+
+#hero .place-order i {
+  margin-right: 10px;
+  color: #ffb000;
+}
+
+#hero .btns a:hover i {
+  color: white;
 }
 
 #hero .btn-menu:hover, #hero .btn-book:hover {
